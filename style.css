@@ -13,6 +13,9 @@
 .categ-img  {
     width: calc(25% - 10px);
 }
+.\37 0-11 img {
+    height: 369px;
+}
 .logo img {
     max-width: 100%;
 }
