@@ -152,6 +152,7 @@ ul.item-categ li {
     width: 200px;
   
   }
+  
   .footer_item {
     width: auto;
   }
@@ -163,5 +164,30 @@ ul.item-categ li {
       .footer_wrapper {
         padding: 40px 0 80px;
       }
+      
+      .categ-img  {
+        width: calc(50% - 10px);
+    }
+    .page-width{
+        padding: 0 20px;
+    }
     
+
+  }
+  @media screen and (max-width: 480px) {
+    .categ-img  {
+        width:100%;
+    }
+    .page-width{
+        padding: 0 10px;
+    }
+    ul.item-categ{
+        display: none;
+    }
+    h2.categories-text {
+        font-size: 26px;
+    }
+    .logo {
+        width: 20%;
+    }
   }
