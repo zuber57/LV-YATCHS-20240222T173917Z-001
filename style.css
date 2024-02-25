@@ -10,6 +10,9 @@
     align-items: center;
     justify-content: space-between;
 }
+.categ-img div {
+    width: calc(90% - 10px);
+}
 .logo img {
     max-width: 100%;
 }
